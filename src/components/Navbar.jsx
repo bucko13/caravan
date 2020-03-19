@@ -30,7 +30,7 @@ const Navbar = () => {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-          <Button color="inherit" href="#/" target="_blank">Caravan</Button>
+          <Button color="inherit" href="#/">Caravan</Button>
           </Typography>
 
 
@@ -44,16 +44,10 @@ const Navbar = () => {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleClose}><Button color="inherit" href="#/address" target="_blank">Create</Button></MenuItem>
-            <MenuItem onClick={handleClose}><Button color="inherit" href="#/spend" target="_blank">Interact</Button></MenuItem>
-            <MenuItem onClick={handleClose}><Button color="inherit" href="#/help" target="_blank">Help</Button></MenuItem>
+            <MenuItem onClick={handleClose}><Button color="inherit" href="#/address">Create</Button></MenuItem>
+            <MenuItem onClick={handleClose}><Button color="inherit" href="#/spend">Interact</Button></MenuItem>
+            <MenuItem onClick={handleClose}><Button color="inherit" href="#/help">Help</Button></MenuItem>
           </Menu>
-
-          {/* <Button color="inherit" href="#/address" target="_blank">Create</Button>
-
-          <Button color="inherit" href="#/spend" target="_blank">Interact</Button>
-
-          <Button color="inherit" href="#/help" target="_blank">Help</Button> */}
 
         </Toolbar>
       </AppBar>
