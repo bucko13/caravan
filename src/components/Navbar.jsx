@@ -40,8 +40,9 @@ const Navbar = () => {
   };
 
   const menuItems = [
-    { href: '#/address', title: 'Create' },
-    { href: '#/spend', title: 'Script Explorer' }, 
+    { href: '#/', title: 'Create Wallet' },
+    { href: '#/create', title: 'Create Address' },
+    { href: '#/script', title: 'Script Explorer' }, 
     { href: '#/help', title: 'Help' },
   ]
 
